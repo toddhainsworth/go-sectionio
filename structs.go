@@ -32,3 +32,11 @@ type User struct{}
 
 // Zone represents a Section.IO Zone object
 type Zone struct{}
+
+// Session represents a session within the API
+// The Section.IO API doesn't strictly keep track
+// of sessions so this is more of an internal thing than anything
+type Session struct {
+	Username string
+	Password []byte
+}
