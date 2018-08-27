@@ -38,5 +38,5 @@ type Zone struct{}
 // of sessions so this is more of an internal thing than anything
 type Session struct {
 	Username string
-	Password []byte
+	Password string
 }
